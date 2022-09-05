@@ -16,7 +16,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int N = in.nextInt();
         if(N<0) throw new IllegalArgumentException("You entered an incorrect number");
-        System.out.println(x.fibo(N));
         System.out.println("An: "+x.geti());
     }
 }
